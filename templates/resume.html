@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block content %}
+        <div class="resume-container">
+            <section id="resume">
+                <h2>Resume</h2>
+                <a href="https://drive.google.com/file/d/1HaKx4p5UI9QVfmB_UyBaxarKt6HwrfyA/view?usp=sharing" download="Blessmore_CV.pdf">Download Resume</a>
+                <br>
+                <br>
+                <h1>Skills</h1>
+                <ul>
+                    <li>Amazon Web Services</li>
+                    <li>Network Administrator</li>
+                    <li>Linux Environment</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Kotlin</li>
+                    <li>Git</li>
+                </ul>
+                <script src="{{url_for('static', filename='/js/script.js')}}"></script>
+                <br>
+                <h1>Certifications</h1>
+                <br>
+                <a href="https://www.credly.com/badges/e343b49c-46eb-4269-a967-c49f80c962c9/public_url">
+                 <img src="{{url_for('static', filename='/images/saa_image.png')}}" title="Click to verify badge" alt="SAA_Badge" width="200" height="200">
+                 </a>
+                 &nbsp;&nbsp;&nbsp
+                 <a href="https://www.credly.com/badges/440c3d22-4467-4f93-911d-133f3e43b973/public_url">
+                 <img src="{{url_for('static', filename='/images/python_image.png')}}" title="Click to verify badge" alt="Python_Badge" width="200" height="200">
+                 </a>
+                 &nbsp;&nbsp;&nbsp
+                 <a href="https://www.credly.com/badges/5d146dbc-68a4-463e-b142-d3c18e7bfa3a/public_url">
+                 <img src="{{url_for('static', filename='/images/cloudwatch_image.png')}}" title="Click to verify badge" alt="CloudWatch_Badge" width="200" height="200">
+                 </a>
+                  &nbsp;&nbsp;&nbsp
+                 <a href="https://www.credly.com/badges/18cbf9de-a1d4-4bdd-b4ae-c2bc805e596a/public_url">
+                 <img src="{{url_for('static', filename='/images/oracle_image.png')}}" title="Click to verify badge" alt="Oracle_Badge" width="200" height="200">
+                 </a>
+                  </a>
+                  &nbsp;&nbsp;&nbsp
+                 <a href="https://www.credly.com/badges/47cbcffc-400a-4a52-a773-2efdad595006/public_url">
+                 <img src="{{url_for('static', filename='/images/google_ai_image.png')}}" title="Click to verify badge" alt="Google_AI_Badge" width="200" height="200">
+                 </a>
+            </section>
+        </div>
+{% endblock content %}

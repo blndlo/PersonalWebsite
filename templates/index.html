@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+        <div class="about-container">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am a passionate and skilled Cloud Engineer with a strong background in technical support. I also dabble in programming and have skills in Python, Java and a bit of Kotlin.Outside of my profession and skills I enjoy experimenting with new recipes (baking and cooking), watching anime, watching football (some call it soccer &#x1F604;), a bit of outdoor activities and travelling.<br>Click on the image below to visit my LinkedIn profile. </p>
+                <br>
+                <br>
+                <a href="https://www.linkedin.com/in/blessmorendlovu/" title="LinkedIn Profile" target="_blank">
+                <div class="image-container">
+                <img src="{{url_for('static', filename='/images/linkedin_icon.png')}}" alt="LinkedIn">
+                </div>
+                </a>
+            </section>
+        </div>
+{% endblock %}
+       

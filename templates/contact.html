@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+        <div class="contact-container">
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <br>
+                <div class="image-text-container">
+                    <img src="{{url_for('static', filename='/images/location.png')}}" alt="Location Icon" width="50" height="50">
+                    <span>Cape Town, South Africa</span>
+                </div>
+                <br>
+                <br>
+                <div class="image-text-container">
+                    <img src="{{url_for('static', filename='/images/email.png')}}" alt="Email Icon" width="50" height="50">
+                    <span>bnblessmore@gmail.com</span>  
+                </div>
+            </section>
+        </div>
+{% endblock content %}
+    

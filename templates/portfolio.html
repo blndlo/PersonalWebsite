@@ -1,0 +1,18 @@
+
+{% extends "layout.html" %}
+{% block content %}
+        <div class="portfolio-container">
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <p>Outside of my 9 to 5 I have worked on various programming (Java, Python, Kotlin), Cloud and AI related projects. These type of projects help me acquire new knowledge and skills which I can use to innovate and contribute in my usual 9 to 5 role. These projects can be viewed in my GitHub profile. Click on the below image to visit my GitHub profile. </p>
+                <br>
+                <br>
+                <a href="https://github.com/blndlo" title="GitHub Profile" target="_blank">
+                <div class="image-container">
+                <img src="{{url_for('static', filename='/images/github_icon.png')}}" alt="GitHub">
+                </div>
+                </a>
+            </section>
+        </div>
+{% endblock content %}
+    
